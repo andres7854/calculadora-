@@ -33,14 +33,14 @@ function multiplicar(){
     var resultado = casilla_uno * casilla_dos;
 
 
-    if (resultado= Infinity){
+    if (resultado= 0){
 
         alert("todo numero que se divida entre cero dara como resultado 0");
         return;
-        document.write(resultado);
+        
 
     }
-
+    document.write(resultado);
 }
 
 
