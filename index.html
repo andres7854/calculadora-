@@ -1,18 +1,38 @@
 <!doctype html>
-<HTML>
-    <HEAD>
+<html>
+    <head>
         <TITLE>Título de la página</TITLE>
-        <script type="text/javascript" scr="js/js1.js"></script>
+        <script type="text/javascript" src="js/js1.js"></script>
+        <script type="text/css" src="css/css1.css"></script>
         
-    </HEAD>
+    </head>
 
-    <BODY>
-        <input type="number" name="uno" id="casilla_uno">
+    <body>
+
+      <div>
+
+        <input class="bodyCal" type="number" name="uno" id="casilla_uno">
         <br>
         <br>
-        <input type="number" name="dos" id="casilla_dos">
+        <input class="bodyCal" type="number" name="dos" id="casilla_dos">
 
         <br>
+
+        <button class="bodyCal" onClick="sumar()">sumar</button>
+
+        <br>
+
+        <button class="bodyCal" onClick="restar()">restar</button>
         
-    </BODY>
-</HTML>
+        <br>
+
+        <button class="bodyCal" onClick="dividir()">dividir</button>
+        
+        <br>
+
+        <button class="bodyCal" onClick="multiplicar()">multiplicar</button>
+
+      </div>
+
+    </body>
+</html>
